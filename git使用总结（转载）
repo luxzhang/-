@@ -1,0 +1,4 @@
+使用Eclipse的git插件提交代码，如果只改了一行代码，对比的时候也会提示这个文件都修改了，
+原因是换行符的问题：CRLF跟LF问题， 使用Eclipse的git插件的同事麻烦用命令行配置一下：
+
+git config --global core.autocrlf true
